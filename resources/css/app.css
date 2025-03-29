@@ -9,3 +9,41 @@
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
 }
+@theme {
+    /* light theme */
+    --color-surface: var(--color-stone-50);
+    --color-surface-alt: var(--color-stone-200);
+    --color-on-surface: var(--color-stone-800);
+    --color-on-surface-strong: var(--color-black);
+    --color-primary: var(--color-amber-500);
+    --color-on-primary: var(--color-black);
+    --color-secondary: var(--color-stone-900);
+    --color-on-secondary: var(--color-stone-50);
+    --color-outline: var(--color-stone-300);
+    --color-outline-strong: var(--color-blue-600);
+
+    /* dark theme */
+    --color-surface-dark: var(--color-stone-950);
+    --color-surface-dark-alt: var(--color-stone-900);
+    --color-on-surface-dark: var(--color-stone-300);
+    --color-on-surface-dark-strong: var(--color-white);
+    --color-primary-dark: var(--color-amber-400);
+    --color-on-primary-dark: var(--color-black);
+    --color-secondary-dark: var(--color-stone-700);
+    --color-on-secondary-dark: var(--color-white);
+    --color-outline-dark: var(--color-stone-700);
+    --color-outline-dark-strong: var(--color-blue-500);
+
+    /* shared colors */
+    --color-info: var(--color-sky-600);
+    --color-on-info: var(--color-slate-100);
+    --color-success: var(--color-green-600);
+    --color-on-success: var(--color-white);
+    --color-warning: var(--color-amber-500);
+    --color-on-warning: var(--color-slate-900);
+    --color-danger: var(--color-red-600);
+    --color-on-danger: var(--color-slate-100);
+
+    /* border radius */
+    --radius-radius: var(--radius-none);
+}
