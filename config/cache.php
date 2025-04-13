@@ -14,9 +14,13 @@ return [
     | specified when running a cache operation inside the application.
     |
     */
+<<<<<<< HEAD
 
     'default' => env('CACHE_STORE', 'database'),
 
+=======
+    'default' => env('CACHE_DRIVER', 'file'),
+>>>>>>> 1e70163d92896a1e26c4bfd5364403e7bc9ad9bb
     /*
     |--------------------------------------------------------------------------
     | Cache Stores

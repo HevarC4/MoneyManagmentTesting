@@ -11,8 +11,17 @@ return Application::configure(basePath: dirname(__DIR__))
         health: '/up',
     )
     ->withMiddleware(function (Middleware $middleware) {
+<<<<<<< HEAD
         //
     })
     ->withExceptions(function (Exceptions $exceptions) {
         //
     })->create();
+=======
+        // Define rate limiters
+        
+    })
+    ->withExceptions(function (Exceptions $exceptions) {
+        //
+    })->create();
+>>>>>>> 1e70163d92896a1e26c4bfd5364403e7bc9ad9bb
